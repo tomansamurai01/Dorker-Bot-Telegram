@@ -24,7 +24,7 @@ try:
     BOT_TOKEN = config["BOT_TOKEN"]
     print("✅ Config loaded!")
 except:
-    print("❌ Run: python3 setup.py first!")
+    print("❌ Run: python3 auto_setup.py first!")
     exit(1)
 
 class PublicDorkBot:
